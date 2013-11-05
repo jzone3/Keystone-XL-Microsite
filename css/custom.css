@@ -1,0 +1,178 @@
+@font-face {
+	font-family: "ProximaNova";
+	src: url('ProximaNova-Light.otf') format("opentype");
+}
+
+body {
+	font-family: ProximaNova, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.brand-navbar-center {
+	margin-top: 22.5px;
+	text-align: center;
+	font-size: 80px;
+	width: 100%;
+	float: none;
+	text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
+}
+
+a {
+	color: #007fff !important;
+}
+
+a:hover {
+	color: #0170DF !important;
+}
+
+.image {
+	width: 100%;
+	/*height: 1200px;*/
+	background-repeat: no-repeat;
+	/*background-position: center center;*/
+	/*background-size: cover;*/
+}
+
+.center-text {
+	text-align: center;
+}
+
+.definition {
+	background-color: #D4CDB0 !important;
+}
+
+.definition-padding {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+.worse-cell {
+	border: 1px solid rgb(230, 230, 230);
+	background-color: #D4CDB0 !important;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron-opacity {
+	opacity: .9;
+}
+
+.kxl {
+	font-family: monospace;
+	font-size: 350%;
+}
+
+.kxl-smaller {
+	font-size: 55%;
+}
+
+.kxl-even-smaller {
+	font-size: 45%;
+}
+
+.right-side-of-exp {
+	font-size: 350%;
+	text-align: left;
+}
+
+.worse {
+	font-family: monospace;;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+
+.extra {
+	display: none;
+}
+
+@media screen and (max-width: 285px) {
+	.worse {
+		font-size: 28px;
+	}
+	.extra {display: block;}
+}
+
+@media screen and (min-width: 285px) {
+	.worse {
+		font-size: 30px;
+	}
+	.extra {display: block;}
+}
+
+@media screen and (min-width: 420px) {
+	.worse {
+		font-size: 33px;
+	}
+	.extra {display: block;}
+}
+
+@media screen and (min-width: 540px) {
+	.worse {
+		font-size: 35px;
+	}
+	.extra {display: block;}
+}
+
+@media screen and (min-width: 540px) {
+	.worse {
+		font-size: 40px;
+	}
+	.extra {display: block;}
+}
+
+@media screen and (min-width: 1200px) {
+	.worse {
+		font-size: 45px;
+	}
+	.extra {
+		display: none;
+	}
+}
+
+.explanation {
+	font-size: 90%;
+}
+
+.element {
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: white;
+}
+
+.indent {
+	margin-left: 100px;
+}
+
+.kxl-explanation {
+	margin-bottom: 200px;
+	line-height: 200%;
+}
+
+.number {
+	font-weight: bolder;
+	font-size: 220%;
+	font-family: monospace;
+}
+
+.by {
+	font-size: 70%;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+.tooltip-link {
+	color: #ecf0f1 !important;
+	word-wrap: break-word;
+}
+
+.tooltip-link:hover {
+	color: #bdc3c7 !important;
+}
