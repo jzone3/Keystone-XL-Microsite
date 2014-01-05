@@ -5,8 +5,16 @@
 	src: url('ProximaNova-Light.otf') format("opentype");
 }
 
+@font-face {
+	font-family: "ProximaNova";
+	src: url('ProximaNova-Bold.otf') format("opentype");
+	font-weight: bold;
+}
+
 body {
 	font-family: ProximaNova, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: url('../imgs/bgs/dark.jpg') no-repeat center center fixed;
+	background-size: cover;
 }
 
 .brand-navbar-center {
@@ -53,6 +61,11 @@ a:hover {
 .worse-cell {
 	border: 1px solid rgb(230, 230, 230);
 	background-color: #D4CDB0 !important;
+	height: 100%;
+}
+
+.bottom-row {
+	padding-bottom: 20px;
 }
 
 .center {
@@ -64,9 +77,26 @@ a:hover {
 	opacity: .97;
 }
 
+@media screen and (min-width: 408px) {
+	.miles {
+		font-size: 112px;
+	}
+	.left-indent {
+		margin-left: 100px;
+	}
+}
+
+@media screen and (max-width: 408px) {
+	.miles {
+		font-size: 50px;
+	}
+	.left-indent {
+		margin-left: 2px;
+	}
+}
+
 .miles {
 	font-family: Noto Sans;
-	font-size: 112px;
 }
 
 .miles-text {
@@ -101,14 +131,14 @@ a:hover {
 	display: none;
 }
 
-@media screen and (max-width: 285px) {
+@media screen and (min-width: 10px) {
 	.worse {
-		font-size: 28px;
+		font-size: 20px;
 	}
 	.extra {display: block;}
 }
 
-@media screen and (min-width: 285px) {
+@media screen and (min-width: 390px) {
 	.worse {
 		font-size: 30px;
 	}
@@ -174,6 +204,12 @@ a:hover {
 	font-family: Noto Sans;
 }
 
+.number-inherit-size {
+	font-weight: bolder;
+	/*font-family: monospace;*/
+	font-family: Noto Sans;
+}
+
 .by {
 	font-size: 70%;
 	text-align: center;
@@ -215,4 +251,24 @@ a:hover {
 }
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
   .flex-video { padding-top: 0; }
+}
+
+.what-are-tar-sands {
+	background: url('../imgs/bgs/mud.jpg') no-repeat center center fixed; background-size: cover;
+}
+
+.smaller-title {
+	 font-size: 240% !important;
+}
+
+.explanation-indent {
+	margin-left: 35px;
+}
+
+.explanation-indent-large {
+	margin-left: 55px;
+}
+
+.explanation-indent-larger {
+	margin-left: 75px;
 }
